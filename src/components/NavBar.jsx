@@ -6,7 +6,7 @@ export default function NavBar() {
         
         {/* View Link */}
         <Link 
-          to="/view" 
+          to="/" 
           className="group relative px-6 py-2 rounded-full text-slate-700 font-bold overflow-hidden transition-all duration-300 hover:text-white"
         >
           <span className="relative z-10">View Badge</span>

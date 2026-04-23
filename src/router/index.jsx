@@ -7,7 +7,6 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<View />} />
-        <Route path="/view" element={<View />} />
         <Route path="/edit" element={<Edit />} />
         <Route path="*" element={<Navigate to="/view" replace />} />
       </Routes>
