@@ -6,7 +6,7 @@ export default function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/view" replace />} />
+        <Route path="/" element={<View />} />
         <Route path="/view" element={<View />} />
         <Route path="/edit" element={<Edit />} />
         <Route path="*" element={<Navigate to="/view" replace />} />
