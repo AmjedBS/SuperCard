@@ -108,7 +108,7 @@ export default function Edit() {
           </div>
 
           {/* Action Button */}
-          <Link to="/view" className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white font-black text-xl rounded-2xl shadow-lg shadow-blue-500/30 transition-all active:scale-95 flex items-center justify-center gap-3 group">
+          <Link to="/" className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white font-black text-xl rounded-2xl shadow-lg shadow-blue-500/30 transition-all active:scale-95 flex items-center justify-center gap-3 group">
             Showcase My Badge!
             <span className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">🚀</span>
           </Link>
